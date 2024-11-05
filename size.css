@@ -1,8 +1,191 @@
 /* size */
+/* laptop */
+
+@media (max-width: 1200px) {
+
+    html {
+        max-width: 100%;
+        height: 400px;
+        background-color: #5cc1e6;
+        scrollbar-width: none;
+    }
+
+    .container {
+        margin-top: -400px;
+    }
+
+    .navbar {
+        width: 100%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: #5ce1e686;
+        border-radius: 9px;
+        border-bottom: 1px solid black;
+        backdrop-filter: blur(2px);
+    }
+
+    .navnem {
+        filter: drop-shadow(-4px 2px 3px rgba(0, 0, 0, 0.5));
+    }
+
+    .bdyimg {
+        padding-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translateX(130px);
+    }
+
+    .ketalamat {
+        transform: translateX(100px);
+    }
+
+    .isial {
+        display: grid;
+        justify-content: end;
+        align-items: center;
+    }
+
+    #kepo {
+        border: none;
+        background-color: rgba(0, 153, 255, 0.5);
+        backdrop-filter: blur(2px);
+        border-radius: 9px;
+        transition: ease-in-out 1s;
+        transform: translateX(-300px) translateY(-250px);
+        -webkit-box-reflect: below 5px linear-gradient(transparent, rgba(0, 0, 0, 0.3));
+    }
+
+    .Tek,
+    .Tis {
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .K {
+        background-color: transparent;
+        border: none;
+        text-decoration: underline;
+        color: blue;
+        font-size: 90%;
+        cursor: pointer;
+    }
+
+    .A {
+        cursor: pointer;
+        color: blue;
+    }
+
+    .img {
+        height: 300px;
+        width: 200px;
+        background-size: cover;
+        background-image: url(./Riska.jpeg);
+        border-radius: 9px;
+        box-shadow: -4px 2px 3px rgba(0, 0, 0, 0.5);
+    }
+
+    .fil {
+        background-image: url(./fil.png);
+        width: 450px;
+        height: 450px;
+        background-size: cover;
+        transform: translateX(-75px) translateY(-15px);
+    }
+
+    .fil1 {
+        background-image: url(./fil.png);
+        width: 500px;
+        height: 500px;
+        background-size: cover;
+        transform: translateX(200px);
+    }
+
+    .filt {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transform: translateY(320px);
+        margin: -100px;
+        width: 105%;
+    }
+
+    .barnama {
+        background-color: rgba(255, 255, 255, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        border-radius: 9px;
+        height: 50px;
+    }
+
+    .nama1 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: transparent;
+    }
+
+    /* body */
+
+
+
+    .h2b,
+    .h2a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(2px);
+        margin-top: 0px;
+        border: 1px solid black;
+        border-bottom: none;
+        border-radius: 9px 9px 0px 0px;
+        color: white;
+    }
+
+    .isi1,
+    .isi {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    .desdiri {
+        text-align: justify;
+        width: 250px;
+    }
+
+    .keterangan,
+    .keterangan1,
+    .keterangan2,
+    .keterangan3 {
+        height: 300px;
+        width: 300px;
+        margin: 10px;
+        border-radius: 9px;
+        background-image: linear-gradient(to bottom, blue, rgba(173, 216, 230, 0.5), rgba(255, 255, 255, 0));
+        backdrop-filter: blur(2px);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+
+    .tubuh {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+}
+
+
 
 /* mobil */
 
-@media (min-width: 375px) {
+@media (max-width: 375px) {
     html {
         max-width: 100%;
         height: 400px;
@@ -40,11 +223,11 @@
     }
 
     .filt {
-      display: none;
+        display: none;
     }
 
     .albdy {
-       width: 355px;
+        width: 355px;
     }
 
     .bdyimg {
@@ -65,6 +248,7 @@
         justify-content: center;
         align-items: center;
     }
+
     .tubuh {
         display: grid;
         justify-content: center;
@@ -72,12 +256,108 @@
         font-size: 50%;
         margin-top: 10px;
     }
-    .keterangan, .keterangan1, .keterangan2, .keterangan3 {
+
+    .keterangan,
+    .keterangan1,
+    .keterangan2,
+    .keterangan3 {
         font-size: 80%;
         height: 60px;
         margin: 15px;
         width: 100%;
     }
+
+    .desdiri {
+        text-align: center;
+        width: 250px;
+    }
+}
+
+@media (min-width: 310px) {
+    html {
+        max-width: 100%;
+        height: 400px;
+        background-color: #5cc1e6;
+    }
+
+    #kepo {
+        transform: translateY(0px) translateX(0px);
+    }
+
+    .container {
+        max-width: 310px;
+        height: 400px;
+        margin-top: 0px;
+    }
+
+    .navbar {
+        width: 102%;
+
+    }
+
+    .navnem {
+        font-size: 20px;
+    }
+
+    .img {
+        height: 150px;
+        width: 100px;
+        transform: translateX(100px);
+    }
+
+    .barnama {
+        font-size: 50%;
+        height: 25px;
+        width: 300px;
+    }
+
+    .filt {
+        display: none;
+    }
+
+    .albdy {
+        width: 355px;
+    }
+
+    .bdyimg {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin-left: -36%;
+        max-width: 83%;
+    }
+
+    .ketalamat {
+        font-size: 50%;
+        transform: translateX(0px);
+    }
+
+    .isial {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tubuh {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        font-size: 50%;
+        margin-top: 10px;
+        background-color: red;
+    }
+
+    .keterangan,
+    .keterangan1,
+    .keterangan2,
+    .keterangan3 {
+        font-size: 100%;
+        height: 60px;
+        margin: 15px;
+        margin-left: -3px;
+        width: 100%;
+    }
+
     .desdiri {
         text-align: center;
         width: 250px;
