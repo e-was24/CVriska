@@ -332,12 +332,12 @@
 
     .ketalamat {
         font-size: 50%;
-        transform: translateX(-100%);
+        transform: translateX(100%);
     }
 
     .isial {
         display: flex;
-        justify-content: center;
+        justify-content: strat;
         align-items: center;
     }
 
