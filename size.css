@@ -214,8 +214,7 @@
     .img {
         height: 150px;
         width: 100px;
-        transform: translateX(
-        0px);
+        transform: translateX(100px);
     }
 
     .barnama {
@@ -275,12 +274,11 @@
 }
 
 @media (max-width: 576px) {
-     html {
+    html {
         max-width: 100%;
-        height: 100vhpx;
+        height: 100vh;
         background-color: #5cc1e6;
         font-size: 100%;
-         
     }
 
     #kepo {
@@ -288,8 +286,8 @@
     }
 
     .container {
-        max-width: 576px;
-        height: 400px;
+        width: 390px;
+        height: 695px;
         margin-top: 0px;
     }
 
@@ -306,7 +304,10 @@
         height: 150px;
         width: 100px;
         transform: translateX(0px);
-        margin-left: 50px;
+        margin-left: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .barnama {
@@ -319,28 +320,37 @@
     }
 
     .albdy {
-        width: 555px;
+        width: 390px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        transform: translateX(0%);
     }
 
     .bdyimg {
         display: grid;
         justify-content: center;
         align-items: center;
-        margin-left: -23%;
-        max-width: 100%;
+        transform: translateX(0%);
+        padding-right: 30px;
+        width: 390px;
     }
 
     .ketalamat {
         font-size: 50%;
-        transform: translateX(100%);
-        background-color: red;
+        margin-left: 0%;
+        transform: translateX(0%);
+        width: 390px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .isial {
         display: flex;
-        justify-content: start;
+        justify-content: center;
         align-items: center;
-        transform: translateX(-150%);
+        transform: translateX(0%);
     }
 
     .tubuh {
@@ -359,7 +369,7 @@
         height: 60px;
         margin: 15px;
         width: 100%;
-        margin-left: -10px;
+        margin-left: 0px;
     }
 
     .desdiri {
