@@ -378,3 +378,110 @@
     }
 
 }
+
+@media (max-width: 390px) {
+    html {
+        max-width: 100%;
+        height: 100vh;
+        background-color: #5cc1e6;
+        font-size: 100%;
+    }
+
+    #kepo {
+        transform: translateY(0px) translateX(0px);
+    }
+
+    .container {
+        width: 390px;
+        height: 695px;
+        margin-top: 0px;
+    }
+
+    .navbar {
+        width: 100%;
+
+    }
+
+    .navnem {
+        font-size: 20px;
+    }
+
+    .img {
+        height: 150px;
+        width: 100px;
+        transform: translateX(0px);
+        margin-left: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .barnama {
+        font-size: 50%;
+        height: 25px;
+    }
+
+    .filt {
+        display: none;
+    }
+
+    .albdy {
+        width: 390px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        transform: translateX(0%);
+    }
+
+    .bdyimg {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        transform: translateX(0%);
+        padding-right: 30px;
+        width: 390px;
+    }
+
+    .ketalamat {
+        font-size: 50%;
+        margin-left: 0%;
+        transform: translateX(0%);
+        width: 390px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .isial {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translateX(0%);
+    }
+
+    .tubuh {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        font-size: 60%;
+        margin-top: 10px;
+        height: 150px;
+    }
+
+    .keterangan,
+    .keterangan1,
+    .keterangan2,
+    .keterangan3 {
+        font-size: 80%;
+        height: 60px;
+        margin: 15px;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .desdiri {
+        text-align: center;
+        width: 250px;
+    }
+
+}
