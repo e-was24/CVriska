@@ -608,502 +608,613 @@
 
 @media (max-width: 356px) {
     /* size */
-/* laptop */
+    /* laptop */
 
-@media (max-width: 1200px) {
+    @media (max-width: 1200px) {
 
-    html {
-        max-width: 100%;
-        height: 400px;
-        background-color: #5cc1e6;
-        scrollbar-width: none;
+        html {
+            max-width: 100%;
+            height: 400px;
+            background-color: #5cc1e6;
+            scrollbar-width: none;
+        }
+
+        .container {
+            margin-top: -400px;
+        }
+
+        .navbar {
+            width: 100%;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: #5ce1e686;
+            border-radius: 9px;
+            border-bottom: 1px solid black;
+            backdrop-filter: blur(2px);
+        }
+
+        .navnem {
+            filter: drop-shadow(-4px 2px 3px rgba(0, 0, 0, 0.5));
+        }
+
+        .bdyimg {
+            padding-top: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform: translateX(130px);
+        }
+
+        .ketalamat {
+            transform: translateX(100px);
+        }
+
+        .isial {
+            display: grid;
+            justify-content: end;
+            align-items: center;
+        }
+
+        #kepo {
+            border: none;
+            background-color: rgba(0, 153, 255, 0.5);
+            backdrop-filter: blur(2px);
+            border-radius: 9px;
+            transition: ease-in-out 1s;
+            transform: translateX(-300px) translateY(-250px);
+            -webkit-box-reflect: below 5px linear-gradient(transparent, rgba(0, 0, 0, 0.3));
+        }
+
+        .Tek,
+        .Tis {
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .K {
+            background-color: transparent;
+            border: none;
+            text-decoration: underline;
+            color: blue;
+            font-size: 90%;
+            cursor: pointer;
+        }
+
+        .A {
+            cursor: pointer;
+            color: blue;
+        }
+
+        .img {
+            height: 300px;
+            width: 200px;
+            background-size: cover;
+            background-image: url(./Riska.jpeg);
+            border-radius: 9px;
+            box-shadow: -4px 2px 3px rgba(0, 0, 0, 0.5);
+        }
+
+        .fil {
+            background-image: url(./fil.png);
+            width: 450px;
+            height: 450px;
+            background-size: cover;
+            transform: translateX(-75px) translateY(-15px);
+        }
+
+        .fil1 {
+            background-image: url(./fil.png);
+            width: 500px;
+            height: 500px;
+            background-size: cover;
+            transform: translateX(200px);
+        }
+
+        .filt {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transform: translateY(320px);
+            margin: -100px;
+            width: 105%;
+        }
+
+        .barnama {
+            background-color: rgba(255, 255, 255, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+            border-radius: 9px;
+            height: 50px;
+        }
+
+        .nama1 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: transparent;
+        }
+
+        /* body */
+
+
+
+        .h2b,
+        .h2a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(2px);
+            margin-top: 0px;
+            border: 1px solid black;
+            border-bottom: none;
+            border-radius: 9px 9px 0px 0px;
+            color: white;
+        }
+
+        .isi1,
+        .isi {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            padding-top: 20px;
+        }
+
+        .desdiri {
+            text-align: justify;
+            width: 250px;
+        }
+
+        .keterangan,
+        .keterangan1,
+        .keterangan2,
+        .keterangan3 {
+            height: 300px;
+            width: 300px;
+            margin: 10px;
+            border-radius: 9px;
+            background-image: linear-gradient(to bottom, blue, rgba(173, 216, 230, 0.5), rgba(255, 255, 255, 0));
+            backdrop-filter: blur(2px);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+
+        .tubuh {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
     }
 
-    .container {
-        margin-top: -400px;
-    }
-
-    .navbar {
-        width: 100%;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        background-color: #5ce1e686;
-        border-radius: 9px;
-        border-bottom: 1px solid black;
-        backdrop-filter: blur(2px);
-    }
-
-    .navnem {
-        filter: drop-shadow(-4px 2px 3px rgba(0, 0, 0, 0.5));
-    }
-
-    .bdyimg {
-        padding-top: 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transform: translateX(130px);
-    }
-
-    .ketalamat {
-        transform: translateX(100px);
-    }
-
-    .isial {
-        display: grid;
-        justify-content: end;
-        align-items: center;
-    }
-
-    #kepo {
-        border: none;
-        background-color: rgba(0, 153, 255, 0.5);
-        backdrop-filter: blur(2px);
-        border-radius: 9px;
-        transition: ease-in-out 1s;
-        transform: translateX(-300px) translateY(-250px);
-        -webkit-box-reflect: below 5px linear-gradient(transparent, rgba(0, 0, 0, 0.3));
-    }
-
-    .Tek,
-    .Tis {
-        color: white;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .K {
-        background-color: transparent;
-        border: none;
-        text-decoration: underline;
-        color: blue;
-        font-size: 90%;
-        cursor: pointer;
-    }
-
-    .A {
-        cursor: pointer;
-        color: blue;
-    }
-
-    .img {
-        height: 300px;
-        width: 200px;
-        background-size: cover;
-        background-image: url(./Riska.jpeg);
-        border-radius: 9px;
-        box-shadow: -4px 2px 3px rgba(0, 0, 0, 0.5);
-    }
-
-    .fil {
-        background-image: url(./fil.png);
-        width: 450px;
-        height: 450px;
-        background-size: cover;
-        transform: translateX(-75px) translateY(-15px);
-    }
-
-    .fil1 {
-        background-image: url(./fil.png);
-        width: 500px;
-        height: 500px;
-        background-size: cover;
-        transform: translateX(200px);
-    }
-
-    .filt {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        transform: translateY(320px);
-        margin: -100px;
-        width: 105%;
-    }
-
-    .barnama {
-        background-color: rgba(255, 255, 255, 0.5);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 10px;
-        border-radius: 9px;
-        height: 50px;
-    }
-
-    .nama1 {
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        background-color: transparent;
-    }
-
-    /* body */
 
 
+    /* mobil */
 
-    .h2b,
-    .h2a {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(2px);
-        margin-top: 0px;
-        border: 1px solid black;
-        border-bottom: none;
-        border-radius: 9px 9px 0px 0px;
-        color: white;
-    }
+    @media (max-width: 375px) {
+        html {
+            max-width: 100%;
+            height: 400px;
+            background-color: #5cc1e6;
+        }
 
-    .isi1,
-    .isi {
-        display: grid;
-        justify-content: center;
-        align-items: center;
-        padding-top: 20px;
-    }
+        #kepo {
+            transform: translateY(0px) translateX(0px);
+        }
 
-    .desdiri {
-        text-align: justify;
-        width: 250px;
-    }
+        .container {
+            max-width: 375px;
+            height: 400px;
+            margin-top: 0px;
+        }
 
-    .keterangan,
-    .keterangan1,
-    .keterangan2,
-    .keterangan3 {
-        height: 300px;
-        width: 300px;
-        margin: 10px;
-        border-radius: 9px;
-        background-image: linear-gradient(to bottom, blue, rgba(173, 216, 230, 0.5), rgba(255, 255, 255, 0));
-        backdrop-filter: blur(2px);
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        .navbar {
+            width: 100%;
+
+        }
+
+        .navnem {
+            font-size: 20px;
+        }
+
+        .img {
+            height: 150px;
+            width: 100px;
+            transform: translateX(100px);
+        }
+
+        .barnama {
+            font-size: 50%;
+            height: 25px;
+        }
+
+        .filt {
+            display: none;
+        }
+
+        .albdy {
+            width: 355px;
+        }
+
+        .bdyimg {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            margin-left: -36%;
+            max-width: 100%;
+        }
+
+        .ketalamat {
+            font-size: 50%;
+            transform: translateX(0px);
+        }
+
+        .isial {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .tubuh {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            font-size: 50%;
+            margin-top: 10px;
+        }
+
+        .keterangan,
+        .keterangan1,
+        .keterangan2,
+        .keterangan3 {
+            font-size: 80%;
+            height: 60px;
+            margin: 15px;
+            width: 100%;
+        }
+
+        .desdiri {
+            text-align: center;
+            width: 250px;
+        }
     }
 
 
-    .tubuh {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 20px;
+    @media (max-width: 470px) {
+        html {
+            max-width: 100%;
+            height: 100vh;
+            background-color: #5cc1e6;
+            font-size: 100%;
+        }
+
+        #kepo {
+            transform: translateY(0px) translateX(0px);
+        }
+
+        .container {
+            width: 390px;
+            height: 695px;
+            margin-top: 0px;
+            background-image: url(./bg\ mo.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .navbar {
+            width: 100%;
+
+        }
+
+        .navnem {
+            font-size: 20px;
+        }
+
+        .img {
+            height: 150px;
+            width: 100px;
+            transform: translateX(0px);
+            margin-left: 40%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .barnama {
+            font-size: 50%;
+            height: 25px;
+        }
+
+        .filt {
+            display: none;
+        }
+
+        .albdy {
+            width: 390px;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            transform: translateX(0%);
+        }
+
+        .bdyimg {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            transform: translateX(0%);
+            padding-right: 30px;
+            width: 390px;
+        }
+
+        .ketalamat {
+            font-size: 50%;
+            margin-left: 0%;
+            transform: translateX(0%);
+            width: 390px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .isial {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform: translateX(0%);
+        }
+
+        .tubuh {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            font-size: 60%;
+            margin-top: 5px;
+            gap: .5rem;
+        }
+
+        .keterangan,
+        .keterangan1,
+        .keterangan2,
+        .keterangan3 {
+            font-size: 80%;
+            height: 60px;
+            width: 100%;
+            margin-left: 0px;
+            backdrop-filter: blur(2px);
+        }
+
+        .desdiri {
+            text-align: center;
+            width: 250px;
+        }
     }
 
+
+    @media (max-width: 576px) {
+        html {
+            max-width: 100%;
+            height: 100vh;
+            background-color: #5cc1e6;
+            font-size: 100%;
+        }
+
+        #kepo {
+            transform: translateY(0px) translateX(0px);
+        }
+
+        .container {
+            width: 390px;
+            height: 695px;
+            margin-top: 0px;
+            background-image: url(./bg\ mo.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .navbar {
+            width: 100%;
+
+        }
+
+        .navnem {
+            font-size: 20px;
+        }
+
+        .img {
+            height: 150px;
+            width: 100px;
+            transform: translateX(0px);
+            margin-left: 40%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .barnama {
+            font-size: 50%;
+            height: 25px;
+        }
+
+        .filt {
+            display: none;
+        }
+
+        .albdy {
+            width: 390px;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            transform: translateX(0%);
+        }
+
+        .bdyimg {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            transform: translateX(0%);
+            padding-right: 30px;
+            width: 390px;
+        }
+
+        .ketalamat {
+            font-size: 50%;
+            margin-left: 0%;
+            transform: translateX(0%);
+            width: 390px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .isial {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform: translateX(0%);
+        }
+
+        .tubuh {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            font-size: 60%;
+            margin-top: 5px;
+            gap: .5rem;
+        }
+
+        .keterangan,
+        .keterangan1,
+        .keterangan2,
+        .keterangan3 {
+            font-size: 80%;
+            height: 60px;
+            width: 100%;
+            margin-left: 0px;
+            backdrop-filter: blur(2px);
+        }
+
+        .desdiri {
+            text-align: center;
+            width: 250px;
+        }
+
+    }
+
+    @media (max-width: 356px) {
+        html {
+            max-width: 100%;
+            height: 100vh;
+            font-size: 100%;
+            background-color: blue;
+        }
+
+        #kepo {
+            transform: translateY(0px) translateX(0px);
+        }
+
+        .container {
+            width: 356px;
+            height: 703px;
+            margin: 2px;
+            background-image: url(./bg\ mo.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .navbar {
+            width: 100%;
+
+        }
+
+        .navnem {
+            font-size: 20px;
+        }
+
+        .img {
+            height: 150px;
+            width: 100px;
+            transform: translateX(0px);
+            margin-left: 40%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .barnama {
+            font-size: 50%;
+            height: 25px;
+        }
+
+        .filt {
+            display: none;
+        }
+
+        .albdy {
+            width: 356px;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            transform: translateX(0%);
+        }
+
+        .bdyimg {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            transform: translateX(35%);
+            padding-right: 0%;
+            width: 356px;
+        }
+
+        .ketalamat {
+            font-size: 50%;
+            margin-left: 0%;
+            transform: translateX(0%);
+            width: 356px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .isial {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform: translateX(0%);
+        }
+
+        .tubuh {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            font-size: 60%;
+            margin-top: 5px;
+            height: 150px;
+            gap: .5rem;
+        }
+
+        .keterangan,
+        .keterangan1,
+        .keterangan2,
+        .keterangan3 {
+            font-size: 80%;
+            height: 60px;
+            width: 100%;
+            margin-left: 0px;
+            backdrop-filter: blur(2px);
+        }
+
+        .desdiri {
+            text-align: center;
+            width: 250px;
+        }
+    }
 }
 
-
-
-/* mobil */
-
-@media (max-width: 375px) {
-    html {
-        max-width: 100%;
-        height: 400px;
-        background-color: #5cc1e6;
-    }
-
-    #kepo {
-        transform: translateY(0px) translateX(0px);
-    }
-
-    .container {
-        max-width: 375px;
-        height: 400px;
-        margin-top: 0px;
-    }
-
-    .navbar {
-        width: 100%;
-
-    }
-
-    .navnem {
-        font-size: 20px;
-    }
-
-    .img {
-        height: 150px;
-        width: 100px;
-        transform: translateX(100px);
-    }
-
-    .barnama {
-        font-size: 50%;
-        height: 25px;
-    }
-
-    .filt {
-        display: none;
-    }
-
-    .albdy {
-        width: 355px;
-    }
-
-    .bdyimg {
-        display: grid;
-        justify-content: center;
-        align-items: center;
-        margin-left: -36%;
-        max-width: 100%;
-    }
-
-    .ketalamat {
-        font-size: 50%;
-        transform: translateX(0px);
-    }
-
-    .isial {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .tubuh {
-        display: grid;
-        justify-content: center;
-        align-items: center;
-        font-size: 50%;
-        margin-top: 10px;
-    }
-
-    .keterangan,
-    .keterangan1,
-    .keterangan2,
-    .keterangan3 {
-        font-size: 80%;
-        height: 60px;
-        margin: 15px;
-        width: 100%;
-    }
-
-    .desdiri {
-        text-align: center;
-        width: 250px;
-    }
-}
-
-
-@media (max-width: 470px) {
-    html {
-        max-width: 100%;
-        height: 100vh;
-        background-color: #5cc1e6;
-        font-size: 100%;
-    }
-
-    #kepo {
-        transform: translateY(0px) translateX(0px);
-    }
-
-    .container {
-        width: 390px;
-        height: 695px;
-        margin-top: 0px;
-        background-image: url(./bg\ mo.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-    .navbar {
-        width: 100%;
-
-    }
-
-    .navnem {
-        font-size: 20px;
-    }
-
-    .img {
-        height: 150px;
-        width: 100px;
-        transform: translateX(0px);
-        margin-left: 40%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .barnama {
-        font-size: 50%;
-        height: 25px;
-    }
-
-    .filt {
-        display: none;
-    }
-
-    .albdy {
-        width: 390px;
-        display: grid;
-        justify-content: center;
-        align-items: center;
-        transform: translateX(0%);
-    }
-
-    .bdyimg {
-        display: grid;
-        justify-content: center;
-        align-items: center;
-        transform: translateX(0%);
-        padding-right: 30px;
-        width: 390px;
-    }
-
-    .ketalamat {
-        font-size: 50%;
-        margin-left: 0%;
-        transform: translateX(0%);
-        width: 390px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .isial {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transform: translateX(0%);
-    }
-
-    .tubuh {
-        display: grid;
-        justify-content: center;
-        align-items: center;
-        font-size: 60%;
-        margin-top: 5px;
-        gap: .5rem;
-    }
-
-    .keterangan,
-    .keterangan1,
-    .keterangan2,
-    .keterangan3 {
-        font-size: 80%;
-        height: 60px;
-        width: 100%;
-        margin-left: 0px;
-        backdrop-filter: blur(2px);
-    }
-
-    .desdiri {
-        text-align: center;
-        width: 250px;
-    }
-}
-
-
-@media (max-width: 576px) {
-    html {
-        max-width: 100%;
-        height: 100vh;
-        background-color: #5cc1e6;
-        font-size: 100%;
-    }
-
-    #kepo {
-        transform: translateY(0px) translateX(0px);
-    }
-
-    .container {
-        width: 390px;
-        height: 695px;
-        margin-top: 0px;
-        background-image: url(./bg\ mo.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-    .navbar {
-        width: 100%;
-
-    }
-
-    .navnem {
-        font-size: 20px;
-    }
-
-    .img {
-        height: 150px;
-        width: 100px;
-        transform: translateX(0px);
-        margin-left: 40%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .barnama {
-        font-size: 50%;
-        height: 25px;
-    }
-
-    .filt {
-        display: none;
-    }
-
-    .albdy {
-        width: 390px;
-        display: grid;
-        justify-content: center;
-        align-items: center;
-        transform: translateX(0%);
-    }
-
-    .bdyimg {
-        display: grid;
-        justify-content: center;
-        align-items: center;
-        transform: translateX(0%);
-        padding-right: 30px;
-        width: 390px;
-    }
-
-    .ketalamat {
-        font-size: 50%;
-        margin-left: 0%;
-        transform: translateX(0%);
-        width: 390px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .isial {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transform: translateX(0%);
-    }
-
-    .tubuh {
-        display: grid;
-        justify-content: center;
-        align-items: center;
-        font-size: 60%;
-        margin-top: 5px;
-        gap: .5rem;
-    }
-
-    .keterangan,
-    .keterangan1,
-    .keterangan2,
-    .keterangan3 {
-        font-size: 80%;
-        height: 60px;
-        width: 100%;
-        margin-left: 0px;
-        backdrop-filter: blur(2px);
-    }
-
-    .desdiri {
-        text-align: center;
-        width: 250px;
-    }
-
-}
-
-@media (max-width: 356px) {
+@media (max-width: 363px) {
     html {
         max-width: 100%;
         height: 100vh;
@@ -1116,7 +1227,7 @@
     }
 
     .container {
-        width: 356px;
+        width: 363px;
         height: 703px;
         margin: 2px;
         background-image: url(./bg\ mo.png);
@@ -1153,7 +1264,7 @@
     }
 
     .albdy {
-        width: 356px;
+        width: 363px;
         display: grid;
         justify-content: center;
         align-items: center;
@@ -1166,14 +1277,14 @@
         align-items: center;
         transform: translateX(35%);
         padding-right: 0%;
-        width: 356px;
+        width: 363px;
     }
 
     .ketalamat {
         font-size: 50%;
         margin-left: 0%;
         transform: translateX(0%);
-        width: 356px;
+        width: 363px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1211,5 +1322,4 @@
         text-align: center;
         width: 250px;
     }
-}
 }
