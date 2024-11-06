@@ -305,7 +305,8 @@
     .img {
         height: 150px;
         width: 100px;
-        transform: translateX(-100px);
+        transform: translateX(0px);
+        margin-left: 50%;
     }
 
     .barnama {
