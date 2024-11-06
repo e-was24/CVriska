@@ -332,7 +332,8 @@
 
     .ketalamat {
         font-size: 50%;
-        transform: translateX(150%);
+        transform: translateX(100%);
+        background-color: red;
     }
 
     .isial {
